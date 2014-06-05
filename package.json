@@ -1,0 +1,17 @@
+{
+  "name": "autoprefixer-browser",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make": "browserify --standalone autoprefixer --entry autoprefixbrowser.js > autoprefixer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^1.1.20140605"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.8"
+  }
+}
